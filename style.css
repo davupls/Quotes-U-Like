@@ -8,6 +8,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+@media screen and ( max-width: 450px ) {
 .logo__img{
     margin: 25px;
     width: 30vw;
@@ -15,7 +16,7 @@ body{
 
 .message{
     background-color: #E0BA5E;
-    color: #fff;
+    color: #3F403F;
     font-size: 28px;
     font-weight: 700;
     /* height: 80px; */
@@ -26,7 +27,7 @@ body{
     /* width: 85vw; */
 }
 
-select{
+/* select{
     appearance: button;
     border: none;
     background-color: #3F403F;
@@ -37,6 +38,11 @@ select{
     width: 180px;
     text-align: center;
     text-transform: capitalize;
+} */
+
+.btn-wrap{
+    display: flex;
+    justify-content: center;
 }
 
 button{
@@ -47,4 +53,56 @@ button{
     font-weight: 700;
     height: 45px;
     width: 120px;
+}
+
+}
+
+
+@media screen and ( min-width: 455px ){
+    .logo__img{
+        margin: 25px 45px 170px;
+        width: 10vw;
+    }
+    
+    .message{
+        background-color: #E0BA5E;
+        border-radius: 25px;
+        color: #3F403F;
+        font-size: 28px;
+        font-weight: 700;
+        /* height: 80px; */
+        margin: 25px 45px;
+        padding: 10px;
+        text-align: center;
+        -webkit-text-stroke: 0.5px black;
+        /* width: 85vw; */
+    }
+    
+    /* select{
+        appearance: button;
+        border: none;
+        background-color: #3F403F;
+        color: aliceblue;
+        font-size: 15px;
+        margin: 25px;
+        height: 45px;
+        width: 180px;
+        text-align: center;
+        text-transform: capitalize;
+    } */
+    
+    .btn-wrap{
+        display: flex;
+        justify-content: center;
+    }
+    
+    button{
+        background-color: #F45B69;
+        border: none;
+        color: aliceblue;
+        font-size: 14px;
+        font-weight: 700;
+        height: 45px;
+        width: 120px;
+    }
 }
