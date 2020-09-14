@@ -13,6 +13,19 @@ body{
     width: 30vw;
 }
 
+.message{
+    background-color: #E0BA5E;
+    color: #fff;
+    font-size: 28px;
+    font-weight: 700;
+    /* height: 80px; */
+    margin: 25px;
+    padding: 10px;
+    text-align: center;
+    -webkit-text-stroke: 0.5px black;
+    /* width: 85vw; */
+}
+
 select{
     appearance: button;
     border: none;
