@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo__img{
+    margin: 25px;
+    width: 30vw;
+}
+
+select{
+    appearance: button;
+    border: none;
+    background-color: #3F403F;
+    color: aliceblue;
+    font-size: 15px;
+    margin: 25px;
+    height: 45px;
+    width: 180px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+button{
+    background-color: #F45B69;
+    border: none;
+    color: aliceblue;
+    font-size: 14px;
+    font-weight: 700;
+    height: 45px;
+    width: 120px;
+}
